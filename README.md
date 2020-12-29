@@ -1,3 +1,3 @@
-# Welcome to my personal website!
+# thedrdu.github.io
 
-## I post updates on projects and other things!
+## A personal site where I experiment and post updates on projects and other things!
