@@ -1,0 +1,160 @@
+/* Menu navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding: 0px;
+  display: inline-block;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px; 
+  text-decoration: none;
+  background: #000;
+  transition: all 0.15s linear;
+  color: #fff;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #fff;
+  transition: all 0.15s linear;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "LEMONMILK";
+    background-image: 'https://infinitysnapz.neocities.org/noyze6.png';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "LEMONMILK";
+    src: url("../../fonts/LEMONMILK-Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "LEMONMILK";
+    src: url("../../fonts/LEMONMILK-Light.otf");
+    font-weight: lighter;
+}
+
+ul {
+display: block;
+list-style-type: disc;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+  }
+
+.fade-in {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    99% {visibility:hidden}
+    100% {opacity:1;visibility:visible}
+}
+
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;visibility:visible}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;visibility:visible}
+}
+
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;visibility:visible}
+}
+
+@-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;visibility:visible}
+}
+
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+.move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+.title img:nth-child() {animation-delay: 1s}
+
+.leftcolumn {
+    float: left;
+    width: 25%;
+}
+  
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    padding-right: 20px;
+}
+
+/* Center column */
+.centercolumn {
+    float: center;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.twitterfeed {
+    float: left;
+    width: 15%;
+    padding-left: 20px;
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}
