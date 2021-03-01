@@ -52,6 +52,11 @@ html {
 }
 
 @font-face {
+    font-family: "ProFontWindows";
+    src: url("../../fonts/ProFontWindows.ttf");
+}
+
+@font-face {
     font-family: "LEMONMILK";
     src: url("../../fonts/LEMONMILK-Light.otf");
     font-weight: lighter;
@@ -158,3 +163,4 @@ padding-left: 0px;
 iframe {
     border-radius: 10px;
 }
+
