@@ -47,13 +47,13 @@ html {
 
 @font-face {
     font-family: "LEMONMILK";
-    src: url("../../fonts/LEMONMILK-Bold.otf");
+    src: url("/fonts/LEMONMILK-Bold.otf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "LEMONMILK";
-    src: url("../../fonts/LEMONMILK-Light.otf");
+    src: url("/fonts/LEMONMILK-Light.otf");
     font-weight: lighter;
 }
 
