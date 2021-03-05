@@ -1,3 +1,7 @@
 # thedrdu.github.io
 
-## A personal site where I experiment and post updates on projects and other things!
+## A personal website where you can see my projects, experience and more!
+
+##### Still a WIP!
+
+# Visit the site, if you want! (https://rustmotherboard.github.io/)
