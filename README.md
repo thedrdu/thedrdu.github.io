@@ -1,4 +1,4 @@
-# thedrdu.github.io
+## thedrdu.github.io
 
 A personal website where you can see my projects, experience and more!
 
