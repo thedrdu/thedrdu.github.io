@@ -13,7 +13,7 @@
   <script src = "assets/js/main.js"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/main.css?v=1">
 
 <!-- Background -->
@@ -21,89 +21,68 @@
 
 <!-- Navbar -->
 <header>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top barcolor" style="background-color:#FD49A0; padding: 0px">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"><span class="navbar-toggler-icon"></span></button>
-  <div class="mx-auto order-0">
-      <a class="navbar-brand" href="/" style="color:#FFF;font-weight:bold;">&nbsp;&nbsp;<i class="fa fa-home"></i>&nbsp;&nbsp;KOTALPA</a>
-  </div>
-  <div class="navbar-collapse collapse w-100 order-1 dual-collapse2" style="padding-left: 10px;">
-      <ul id="top-nav" class="navbar-nav ml-auto">
-          <li class="nav-item hide">
-              <a href="/user/profile">
-                  <img id="avatar" src="">
-              </a>
-          </li>
-          <li class="nav-item hide">
-              <a href="/user/profile" class="nav-link navcolor" id="username" style="color:#FFF"></a>
-          </li>
-          <li class="nav-item hide">
-              <a class="nav-link navcolor" href="/posts/create" style="color:#FFF"><i class="fa fa-edit"></i>&nbsp;撰写博文</a>
-          </li>
-          <li class="nav-item hide">
-              <a id="new_quickpost" class="nav-link navcolor" href="#" style="color:#FFF"><i class="fa fa-edit"></i>&nbsp;论坛灌水</a>
-          </li>
-          <li class="nav-item hide">
-              <a href="/user/inbox" class="nav-link navcolor" style="color:#FFF"><i id="inbox-icon" class="fa fa-envelope"></i>&nbsp;信箱<span id="inbox-count"></span></a>
-          </li>
-          <li class="nav-item hide">
-              <a id="logout" class="nav-link navcolor" href="/logout" style="color:#FFF"><i class="fa fa-sign-out"></i>&nbsp;退出</a>
-          </li>
-          <li class="nav-item hide">
-              <a class="nav-link navcolor" href="/login" style="color:#FFF"><i class="fa fa-sign-in"></i>&nbsp;登陆</a>
-          </li>
-          <li class="nav-item hide">
-              <a class="nav-link navcolor" href="/register" style="color:#FFF"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;注册账号</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link navcolor" id="search-link" href="javascript:;" style="color:#FFF"><i id="searchicon" class="fa fa-search fa-lg"></i></a>
-          </li>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#000; padding: 0px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"><span class="navbar-toggler-icon"></span></button>
+    <div>
+      <ul id="top-nav" class = "menu">
+        <li class="nav-item hide">
+          <a class="navbar-brand navbar header" href="#top" style="font-weight:bold;font-size: 32px;">THEDRDU</a>
+        </li>
       </ul>
-      <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
-</nav>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-1 dual-collapse2" style="padding-left: 10px;">
+      <ul id="top-nav" class="navbar-nav ml-auto" class = "menu">
+        <li>
+          <a class="nav-link navcolor" href="info.html" style="color:#FFF"><i class="fa fa-edit"></i>&nbsp;INFO</a>
+        </li>
+        <li>
+          <a class="nav-link navcolor" href="support.html" style="color:#FFF"><i class="fa fa-edit"></i>&nbsp;SUPPORT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <!-- Cool Intro -->
-  <div align = "center" style="font-family: 'LEMONMILK'; margin-top: 75px; font-weight: bold;">
-    <a style="font-size: 48px; color: white; margin-top: 100px;" class="w3-container w3-center w3-animate-bottom">I am</a>
-    <img id="thedrdu" src="images/thedrdu_skewed2.png" style="margin:auto; width: 100%;" class="w3-container w3-center w3-animate-bottom-delay1">
-    <a id="thedrdu2" style="font-size: 48px; color: white" class="w3-container w3-center w3-animate-bottom-delay2">You've come a long way. Relax...</a>
-    <a style="font-size: 36px; color: white; font-weight: lighter; padding-top: 100px;"><br/><br/>So you've found your way to my site.<br/><br/>Well, since you're here, why not take a look around?<br/></a>
-  </div>
+<div align = "center" style="font-family: 'LEMONMILK'; margin-top: 75px; font-weight: bold;">
+  <a style="font-size: 48px; color: white; margin-top: 100px;" class="w3-container w3-center w3-animate-bottom">I am</a>
+  <img id="thedrdu" src="images/thedrdu_skewed2.png" style="margin:auto; width: 100%;" class="w3-container w3-center w3-animate-bottom-delay1">
+  <a id="thedrdu2" style="font-size: 48px; color: white" class="w3-container w3-center w3-animate-bottom-delay2">You've come a long way. Relax...</a>
+  <a style="font-size: 36px; color: white; font-weight: lighter; padding-top: 100px;"><br/><br/>So you've found your way to my site.<br/><br/>Well, since you're here, why not take a look around?<br/></a>
+</div>
 <!-- Cards -->
-  <div style="padding: 20px; padding-top: 80px;" class="row">
-    <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 order-sm-3">
-      <div class="card">
-        <h2>Contacts</h2>
-        <a>Discord - thedrdu#2310</a>
-        <br/>
-        <a href="https://twitter.com/thedrdu" style="font-weight: lighter; color: #0000EE;">Twitter</a>
-        <!-- <a href="https://www.youtube.com/channel/UCULkMFXtP_xh3iBdRXxZVVg" style="font-weight: lighter; color: #0000EE;">YouTube</a> -->
-        <a href="https://scratch.mit.edu/users/thedrdu/" style="font-weight: lighter; color: #0000EE;">Scratch</a>
-        <a href = "mailto: thedrdu@gmail.com" style="font-weight: lighter; color: #0000EE;">Email</a>
-      </div>
+<div style="padding: 20px; padding-top: 80px;" class="row">
+  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 order-sm-3">
+    <div class="card">
+      <h2>Contacts</h2>
+      <a>Discord - thedrdu#2310</a>
+      <br/>
+      <a href="https://twitter.com/thedrdu" style="font-weight: lighter; color: #0000EE;">Twitter</a>
+      <!-- <a href="https://www.youtube.com/channel/UCULkMFXtP_xh3iBdRXxZVVg" style="font-weight: lighter; color: #0000EE;">YouTube</a> -->
+      <a href="https://scratch.mit.edu/users/thedrdu/" style="font-weight: lighter; color: #0000EE;">Scratch</a>
+      <a href = "mailto: thedrdu@gmail.com" style="font-weight: lighter; color: #0000EE;">Email</a>
     </div>
-    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-2">
-      <div class="card">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sint magni perferendis. Aliquam explicabo obcaecati molestiae! 
-        Quam vel placeat, optio ut, laboriosam vero provident quisquam, voluptates consequuntur assumenda aspernatur soluta.
-      </div>
-    </div>
-    <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 order-sm-1">
-      <div class="card">
-       <a class="twitter-timeline" href="https://twitter.com/thedrdu?ref_src=twsrc%5Etfw" data-width="auto" data-height="auto">Tweets by thedrdu</a>
-      </div>
-    </div>
-    <iframe src="https://titanembeds.com/embed/816008136115748894" class = "col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 order-4" height= "600"frameborder="0"></iframe>
-      <!-- YouTube(fix later) -->
-    <!-- <iframe src="https://www.youtube.com/embed/-1MHjOEPBGI" class = "col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 order-4" height= "600"frameborder="0" style="padding-top: 50px;"></iframe> -->
   </div>
+  <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 order-sm-2">
+    <div class="card">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores sint magni perferendis. Aliquam explicabo obcaecati molestiae! 
+      Quam vel placeat, optio ut, laboriosam vero provident quisquam, voluptates consequuntur assumenda aspernatur soluta.
+    </div>
+  </div>
+  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 order-sm-1">
+    <div class="card">
+      <a class="twitter-timeline" href="https://twitter.com/thedrdu?ref_src=twsrc%5Etfw" data-width="auto" data-height="auto">Tweets by thedrdu</a>
+    </div>
+  </div>
+  <iframe src="https://titanembeds.com/embed/816008136115748894" class = "col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 order-4" height= "600"frameborder="0"></iframe>
+    <!-- YouTube(fix later) -->
+  <!-- <iframe src="https://www.youtube.com/embed/-1MHjOEPBGI" class = "col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 order-4" height= "600"frameborder="0" style="padding-top: 50px;"></iframe> -->
+</div>
 
 
-  <!-- Bottom Stuff -->
-  <img src="images/logo.png" style="padding: 20px; float: right;"></img>
-  <div style="font-size: 24px; padding: 20px; float: left; font-family: 'ProFontWindows'; color: #fff;">Last Updated: 03/08/2021</div>
+<!-- Bottom Stuff -->
+<img src="images/logo.png" style="padding: 20px; float: right;"></img>
+<div style="font-size: 24px; padding: 20px; float: left; font-family: 'ProFontWindows'; color: #fff;">Last Updated: 03/08/2021</div>
   
   </body>
 </head>
