@@ -137,20 +137,20 @@ iframe {
 ul li a {
     color:white;   
     background-color: #000;    
-    transition: background-color 0.1s linear; /* vendorless fallback */
-    -o-transition: background-color 0.1s linear; /* opera */
-    -ms-transition: background-color 0.1s linear; /* IE 10 */
-    -moz-transition: background-color 0.1s linear; /* Firefox */
-    -webkit-transition: background-color 0.1s linear; /*safari and chrome */
+    transition: background-color 0.2s linear; /* vendorless fallback */
+    -o-transition: background-color 0.2s linear; /* opera */
+    -ms-transition: background-color 0.2s linear; /* IE 10 */
+    -moz-transition: background-color 0.2s linear; /* Firefox */
+    -webkit-transition: background-color 0.2s linear; /*safari and chrome */
 }
 
 ul li a:hover {
     color: black;
     background-color: #fff;
     cursor: pointer;
-    transition: background-color 0.1s linear; /* vendorless fallback */
-    -o-transition: background-color 0.1s linear; /* opera */
-    -ms-transition: background-color 0.1s linear; /* IE 10 */
-    -moz-transition: background-color 0.1s linear; /* Firefox */
-    -webkit-transition: background-color 0.1s linear; /*safari and chrome */
+    transition: background-color 0.2s linear; /* vendorless fallback */
+    -o-transition: background-color 0.2s linear; /* opera */
+    -ms-transition: background-color 0.2s linear; /* IE 10 */
+    -moz-transition: background-color 0.2s linear; /* Firefox */
+    -webkit-transition: background-color 0.2s linear; /*safari and chrome */
 }
